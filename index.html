@@ -1,14 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ételrecept kereső</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3075/3075977.png">
-</head>
-<body>
-    <select name="hozzávalók" id="hozzavalok"></select>
-    <button id="keresGomb">Keresés</button>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ételrecept Böngésző</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <header>
+            <h1>🍽️ Recept Böngésző</h1>
+        </header>
+        
+        <main class="card">
+            <h2>Válaszd ki az alapanyagokat</h2>
+            
+            <form>
+                <div class="ingredients">
+                    <label><input type="checkbox"> Tojás</label>
+                        <label><input type="checkbox"> Liszt</label>
+                        <label><input type="checkbox"> Tej</label>
+                        <label><input type="checkbox"> Cukor</label>
+                        <label><input type="checkbox"> Sajt</label>
+                        <label><input type="checkbox"> Paradicsom</label>
+                    </div>
+                    
+                    <button id="keresGomb">Keresés</button>
+                    
+                </form>
+                
+                <select name="hozzávalók" id="hozzavalok"></select>
+        <section class="results">
+            <h3>Találatok</h3>
+            <p>Jelenleg nincs megjeleníthető recept.</p>
+        </section>
+    </main>
+
 </body>
 </html>
