@@ -105,4 +105,6 @@ function keres() {
     }
 }
 
+//Kész de ezt csak azért írom ide mert véletlenül mainbe dolgoztam és ott commiteltem
+
 document.getElementById("keresGomb").addEventListener("click", keres);
